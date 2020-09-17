@@ -17,6 +17,7 @@ namespace WithoutIdentity.Models.AccountViewModels
         [DataType(DataType.Password)]
         [Display(Name = "Senha")]
         [StringLength(100, ErrorMessage = "O campo {0} deve ter no mínimo {2} e no máximo {1} caracteres", MinimumLength = 8)]
+        //teste 
         public string Password { get; set; }
 
         [DataType(DataType.Password)]
